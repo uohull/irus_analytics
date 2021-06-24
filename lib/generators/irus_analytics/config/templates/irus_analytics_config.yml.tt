@@ -1,0 +1,21 @@
+development:
+  enabled: true
+  enable_send_logger: true
+  irus_server_address: <%= default_irus_server_address %>
+  robots_file: <%= default_counter_robot_list %>
+  source_repository: <%= default_source_repository 'development' %>
+  verbose_debug: true
+test:
+  enabled: true
+  enable_send_logger: false
+  irus_server_address: <%= default_irus_server_address %>
+  robots_file: <%= default_counter_robot_list %>
+  source_repository: <%= default_source_repository 'testing' %>
+  verbose_debug: false
+production:
+  enabled: true
+  enable_send_logger: false
+  irus_server_address: <%= default_irus_server_address %>
+  robots_file: <%= default_counter_robot_list %>
+  source_repository: <%= default_source_repository 'production' %>
+  verbose_debug: false
