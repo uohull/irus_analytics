@@ -2,7 +2,7 @@
 
 IrusAnalytics is a gem that provides a simple way to send analytics to the IRUS-UK repository agggregation service.  
 
-More information about IRUS-UK can be found at [http://www.irus.mimas.ac.uk/](http://www.irus.mimas.ac.uk/).  In summary the IRUS-UK service is designed to provide article-level usage statistics for Institutional Repositories.  To sign up and use IRUS-UK, please see the above link. 
+More information about IRUS-UK can be found at [https://irus.jisc.ac.uk/r5/](https://irus.jisc.ac.uk/r5/).  In summary the IRUS-UK service is designed to provide article-level usage statistics for Institutional Repositories.  To sign up and use IRUS-UK, please see the above link. 
 
 This gem was developed for use with a Hydra repository [http://projecthydra.org/](http://projecthydra.org/), but it can be used with any other Rails based web application. 
 
